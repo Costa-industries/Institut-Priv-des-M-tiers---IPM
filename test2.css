@@ -1,0 +1,138 @@
+.animate{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    right:  0;
+    background: #810000;
+    animation: show-right 2.5s ease-in-out;
+    animation-delay: calc(.7s * var(--i));
+}
+
+@keyframes card {
+   
+
+    from{
+    scale: .8;
+    opacity: 1;
+    }
+
+    to { scale:1 ;
+        opacity: 1;}
+
+
+}
+
+@keyframes show-right {
+    to{
+        width: 75%;
+    }
+    
+}
+
+@keyframes fade-in{
+    0%{
+        transform: translateX(-50px);
+        opacity: .8;
+    }
+    /* 60%{
+        opacity: .8;
+    } */
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideshow{
+    0%{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideshow_2{
+    0%{
+        transform: translateX(-1500px);
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideshowpart{
+    0%{
+        transform: translateX(-1500px);
+        opacity: 0;
+    }
+    /* 60%{
+        opacity: 0;
+    } */
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideshow_3{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    /* 60%{
+        opacity: 0;
+    } */
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideshow_4{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideshow_5{
+    0%{
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+    /* 60%{
+        opacity: 0;
+    } */
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

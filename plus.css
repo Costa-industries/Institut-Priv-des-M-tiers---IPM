@@ -1,0 +1,20 @@
+.content.a .card{
+    position: relative;
+    left: 50px;
+}
+
+.content2 .t h3::after{
+    width: 200px;
+}
+
+.background .card{
+    position: relative;
+    left: 40px;
+}
+.background .card p{
+    left: 0;
+}
+.cont .s h4, p{
+    position: relative;
+    /* padding-left: 30px; */
+}

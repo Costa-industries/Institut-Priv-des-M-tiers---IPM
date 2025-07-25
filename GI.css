@@ -1,0 +1,10 @@
+section .card-w{
+    margin-left: 70px;
+    margin-right: 100px ;
+}
+
+.card-w.a img{
+    position: relative;
+    width: 350px;
+    border-radius: 20px;
+}

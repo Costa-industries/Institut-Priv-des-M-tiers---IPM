@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lexend:wght@100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Josefin Sans", serif;
+    
+}
+
+body{
+
+    position: relative;
+    background: #810000;
+    
+}
+
+section .pres{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding:60px;
+    color: white;
+
+}
+
+section .pres i{
+    font-size: 90px;
+    margin-bottom: 30px;
+
+}
+section .pres h2{
+    font-size: 35px;
+}
+section .pres p{
+    padding: 40px;
+}
+
+section .line{
+    position: relative;
+    content: "";
+    top: -50px;
+    width: 90%;
+    left: 50px;
+    height: 3px;
+    border-radius: 60%;
+    background: aliceblue;
+    color: white;
+    box-shadow: 0 0 3px #ffffff, 0 0 1px  #ffffff;
+    border-radius: 50%;
+   
+}
+
+
+section .wrap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section .card-w{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    background: white;
+    margin-right: 20px;
+    color: #810000;
+    height: 550px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+section .card-w p{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    width: 350px;
+    padding: 50px;
+    left: -30px;
+    color: #3f3f3f;
+    text-transform: none;
+}
+
+.card-w img{
+    position: relative;
+    width: 350px;
+    border-radius: 20px;
+}
+
+
+

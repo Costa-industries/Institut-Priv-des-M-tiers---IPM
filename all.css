@@ -1,0 +1,30 @@
+
+
+footer{
+   background: white;
+    border-radius: 70px 80px 0 0;
+}
+
+.foot .content h3{
+    color:  #810000;
+}
+
+.foot .content a{
+    color: #810000;
+}
+
+.foot .content .line{
+    background: #810000;
+}
+
+.content .browser-link i{
+    color: #810000;
+}
+
+.line.c{
+    background: #ffffff;
+}
+
+.end p{
+    color: #810000;
+}

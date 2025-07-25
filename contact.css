@@ -1,0 +1,348 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lexend:wght@100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Josefin Sans", serif;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+
+    position: relative;
+    background: #810000;
+    
+
+}
+
+header{
+    position: relative;
+    background: white;
+    top: 0;
+    left: 0;
+    height: 130px;
+    width: 100%;
+    flex-wrap: wrap;
+    border: 2px solid #810000;
+
+
+
+}
+/* 
+header content{
+    position: relative;
+
+} */
+
+header img{
+    position: relative;
+    top: 15px;
+    width: 90px;
+    left: 10%;
+    
+}
+
+
+
+header .b_nav{
+    position: absolute;
+    top: 45px;
+    padding: 10px;
+    left: 400px;
+
+}
+
+header .b_nav a{
+    padding: 13px;
+    color: #810000;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .5s;
+    box-shadow: 0px 5px 0px #810000;
+    max-width: 100%;
+}
+
+header .b_nav .active{
+
+    border-radius: 25px;
+    box-shadow: 0 0 3px #810000, 0 0 5px  #810000;
+    background: #810000;
+    color: aliceblue;
+
+}
+
+
+.b_nav a:hover{
+    transition: .5s;
+    border-radius: 25px;
+    box-shadow: 0 0 3px #810000, 0 0 5px  #810000;
+    background: #810000;
+    color: aliceblue;
+}
+section .content {
+    top: 30px;
+    background: white;
+    border-radius: 70px 80px 0 0;
+}
+
+section .map{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction:column ;
+    color: #810000;
+    padding: 30px;
+}
+
+.map i{
+    font-size: 50px;
+    padding: 10px;
+    animation: slideshow_4 1s;
+
+}
+
+.map h3{
+    font-size: 30px;
+    padding: 30px;
+    animation: slideshow_4 1.8s;
+
+}
+
+.line{
+    position: relative;
+    content: "";
+    top: -15px;
+    height: 3px;
+    width: 370px;
+    background: #810000;
+    box-shadow: 0 0 3px #810000, 0 0 1px #810000 ;
+    border-radius: 50%;
+    /* animation: show-right 1s ease-out forwards; */
+}
+
+.line.j{
+    box-shadow: 0 0 10px #810000, 0 0 10px #810000 ;
+    animation: show-right 1s ease-out forwards;
+    
+}
+
+
+.map p{
+    padding: 100px;
+    color: rgb(44, 44, 44);
+    font-size: 20px;
+    animation: slideshow_4 1.5s;
+}
+
+.map img{
+    width: 900px;
+    height: 500px;
+    box-shadow: 0px 0px 10px #3a3a3a ;
+    animation: slideshow_4 3s;
+}
+
+
+
+
+.rs{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.w{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #810000;
+    font-size: 30px;
+    padding: 30px;
+}
+
+
+.w i{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.w.a{
+    padding: 80px;
+}
+
+.w a{
+    color: #810000;
+    font-size: 20px;
+    /* border: 2px solid #810000;
+    border-radius: 15px; */
+    text-decoration: underline;
+    padding: 15px;
+    font-weight:bolder;
+    transition: .3s;
+}
+
+.w a:hover{
+    background: #810000;
+    color: white;
+    box-shadow:  5px  #810000;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+
+
+footer{
+    position: relative;
+}
+
+/* footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #222;
+    height: 260px;
+    width: 100%;
+    border: 1px solid transparent;
+
+} */
+
+.foot{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px ;
+    padding: 30px;
+}
+
+.foot .container{
+    position: relative;
+    display:flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px ;
+
+}
+
+
+.foot .content{
+    position: relative;
+    display: flex;
+    flex-direction:column ;
+    flex-wrap: wrap;
+    padding: 40px ;
+    color: aliceblue;
+}
+.foot .content h3{
+    margin-bottom: 50px;
+    color: #fffefe;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+
+
+.foot .content a{
+    padding: 10px;
+    color: #fffefe;
+    transition: 0.2s;
+    font-weight: 300;
+}
+.foot .content a:hover{
+    color:  0 0 3px #ffffff, 0 0 5px  #ffffff ;
+    transform: translateX(10px);
+}
+
+.foot .browser-link i{
+    font-size: 40px;
+    transition: 0.3s;
+    color: #fffefe;
+}
+.foot .browser-link i:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.foot .line{
+    position: relative;
+    left: 10px;
+    top: -45px;
+    content: "";
+    height: 3px;
+    width: 153px;
+    background: aliceblue;
+    box-shadow: 0 0 3px #ffffff, 0 0 1px  #ffffff;
+    border-radius: 50%;
+   
+}
+
+
+.foot .line.a{
+    width: 80px;
+}
+
+.foot .line.b{
+    width: 120px;
+}
+
+.foot .line.c{
+    left: -25px;
+    width: 100%;
+    top: 20px;
+    height: 1px;
+    border-radius: 60%;
+}
+
+/* footer .end {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .end h6{
+    position: relative;
+    top: 50px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 15px;
+
+
+} */
+
+footer .end p{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 70px;
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: none;
+    font-size: 10px;
+    color: #fffefe;
+    letter-spacing: 3px;
+    padding-bottom: 40px;
+}
+
+.content4 h3 span{
+    background: white;
+    color: #810000;
+    border-radius: 20px;
+    padding: 10px;
+}

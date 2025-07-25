@@ -1,0 +1,875 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lexend:wght@100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Josefin Sans", serif;
+    
+}
+
+body{
+
+    position: relative;
+    background: #810000;
+    max-width: 100%;
+    
+
+}
+
+header{
+    position: relative;
+    background: white;
+    top: 0;
+    left: 0;
+    height: 130px;
+    width: 100%;
+    flex-wrap: wrap;
+    border: 2px solid #810000;
+
+
+
+}
+/* 
+header content{
+    position: relative;
+
+} */
+
+header img{
+    position: relative;
+    top: 15px;
+    width: 90px;
+    left: 10%;
+    
+}
+
+
+
+header .b_nav{
+    position: absolute;
+    top: 45px;
+    padding: 10px;
+    left: 400px;
+
+}
+
+header .b_nav a{
+    padding: 13px;
+    color: #810000;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .5s;
+    box-shadow: 0px 5px 0px #810000;
+}
+
+header .b_nav .active{
+
+    border-radius: 25px;
+    box-shadow: 0 0 3px #810000, 0 0 5px  #810000;
+    background: #810000;
+    color: aliceblue;
+
+}
+
+
+.b_nav a:hover{
+    transition: .5s;
+    border-radius: 25px;
+    box-shadow: 0 0 3px #810000, 0 0 5px  #810000;
+    background: #810000;
+    color: aliceblue;
+}
+
+/* header::after{
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 130px;
+    height: 2px;
+    width: 100%;
+    background: #810000;
+} */
+
+
+.title{
+    position: relative;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+
+
+
+.s-link{
+    position: absolute;
+    right: 80px;
+    top: 45px;
+}
+
+.s-link i{
+    color: #810000;
+    font-size: 40px;
+    justify-content: space-evenly;
+    margin-right: 20px;   
+    transition: .3s;
+}
+
+.s-link i:hover{
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.ftitle{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.ftitle h3, h5{
+
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+    /* animation: slideshow_4 1.5s ease forwards; */
+    animation: slideshow_4 1.5s;
+    text-transform: uppercase;
+}
+
+.ftitle h3 span{
+    background:white;
+    border-radius:25px ;
+    animation: slideshow_2 1.5s;
+    color: #810000;
+    padding: 10px;
+
+}
+
+
+
+.ftitle h5{
+    animation: slideshow_4 2s ease forwards;
+}
+
+.ftitle h5 span{
+    padding: 10px;
+}
+
+.ftitle h5 .s{
+    animation: slideshow_4 3s;
+}
+
+
+
+
+section .content{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background: white;
+    /* border-radius: 100px ;  */
+
+    border-radius: 70px 80px 0 0;
+}
+
+
+
+.content .card{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height:410px ;
+    background: aliceblue;
+    margin: 5px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background: #810000;
+    transition: .5s;
+    animation: slideshow_4 4s ease;
+    margin-bottom: 20px;
+    /* animation:  card linear ; */
+    /* animation-timeline: view();
+    animation-range-start: cover ;
+    animation-range-end: 500px;
+    animation-range: entry ; */
+}
+
+.content .card:hover{
+    transform: translateY(-15px);
+
+}
+
+.card-content img{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 40%;
+}
+
+
+.card-content i{
+    color: white;
+    font-size: 80px;
+    margin-bottom: 40px;
+
+}
+
+.card-content{
+    position: relative;
+    top: 30px;
+}
+
+.card-content p{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 17px;
+    margin-bottom:15px ;
+    text-transform: uppercase;
+
+}
+
+.card-content li{
+    position: relative;
+    display: flex;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    left: 3px;
+    font-weight: 300;
+    /* list-style-image: url("icons8-sphere-30.png"); */
+  
+}
+
+.card-content .liste{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.card-content a{
+    position: relative;
+    bottom: -50px;
+    color: aliceblue;
+    border: 2px solid aliceblue ;
+    border-radius: 15px;
+    padding: 15px;
+    transition: .3s;
+    font-weight: 500;
+
+
+}
+
+
+
+.card-content a:hover{
+    background: aliceblue;
+    color: #810000;
+    box-shadow: 0 0 3px #ffffff, 0 0 5px  #ffffff;
+
+
+}
+
+
+.card-content .line{
+    position: relative;
+    left: 20%;
+    top: -10px;
+    content: "";
+    height: 3px;
+    width: 150px;
+    background: aliceblue;
+    box-shadow: 0 0 3px #ffffff, 0 0 1px  #ffffff;
+    border-radius: 50%;
+    
+
+}
+
+
+.card.a .card-content a{
+    position: relative;
+    bottom: -30px;
+}
+
+.card.b .card-content a{
+    position: relative;
+    bottom: -70px;
+}
+
+.card.c .card-content a{
+    position: relative;
+    bottom: -45px;
+}
+
+.card.d .card-content a{
+    position: relative;
+    bottom: -80px;
+ }
+
+  
+.content2 {
+    position: relative;
+    background: white;
+   
+    
+
+}
+
+
+
+.content2 h3, p{
+    position: relative;
+    display: flex;
+    color: #810000;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 25px;
+   
+} 
+
+
+
+
+.content2 h3{
+    top: 40px;
+    margin-left: 70px;
+    color: rgb(59, 57, 57);
+    font-size: 28px;
+}
+
+.content2 h3::before{
+    position: absolute;
+    top: 10px;
+    left: -68px;
+    content: '';
+    width: 55px;
+    height: 3px;
+    background: #810000;
+    border-radius: 35px;
+}
+
+.content2 h3::after{
+    position: relative;
+    top: 10px;
+    content: '';
+    left: 40px;
+    margin-left: 10px;
+    width: 758px;
+    height: 3px;
+    background: #810000;
+    border-radius: 35px;
+}
+ 
+
+.content2 p{
+    font-size: 20px;
+    margin-top: 100px;
+   
+    
+}
+
+
+.content2 h3 i{
+    position: absolute;
+    color: #810000;
+    left: 29%;
+    top: -2.5px;
+    
+}
+.content2 .f i{
+
+    position: absolute;
+    color: #810000;
+    left: 40px;
+    top: 39px;
+    font-size: 25px;
+
+}
+
+.content2 .for{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.content2 .for i{
+    margin-right: 20px;
+    color: #810000;
+    margin-bottom: 30px;
+}
+.content2 li{
+    padding: 18px;
+    text-transform: uppercase;
+    color: rgb(36, 36, 36);
+    margin-left: 15px;
+    font-weight: bolder;
+    list-style: none;
+
+}
+
+.content2 li span{
+    color: #810000;
+}
+
+
+.content3{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background: #ffffff;
+}
+
+.content3 h3{
+    color: rgb(37, 36, 36);
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 25px;
+    font-size: 23px;
+}
+
+.content3 h3 i{
+    position: relative;
+    color: #810000;
+    
+}
+
+
+
+.content3 h3::before{
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    content: '';
+    width: 45px;
+    height: 3px;
+    background: #810000;
+    border-radius: 35px;
+}
+
+.content3 h3::after{
+    position: absolute;
+    top: 10px;
+    content: '';
+    margin-left: 10px;
+    right: 0;
+    width: 140px;
+    height: 3px;
+    background: #810000;
+    border-radius: 35px;
+}
+
+.content3 .card{
+    position: relative;
+    width: 320px;
+    height:350px ;
+    background: white;
+    margin: 5px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: .3s;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    
+}
+
+.content3 .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 3px #fffefe, 0 0 15px  #ffffff;
+
+}
+
+
+
+.content3 .card .card-content i{
+    position: relative;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #810000;
+    font-size: 50px;
+}
+
+.content3 .card .card-content h6{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: -20px;
+    color: #810000;
+    font-weight: bolder;
+    font-size: 20px;
+
+    
+}
+
+.content3 .card .card-content p{
+    position: relative;
+    top: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(22, 21, 21);
+    font-weight: bolder;
+    text-transform: capitalize;
+
+}
+
+.content3 .card .card-content p span{
+    color: #810000;
+    font-size: 20px ;
+}
+
+.content3 .card .card-content h6 i{
+    position: relative;
+    top: 20px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.content3 h3 span{
+    color: #810000;
+}
+
+.content3 .background{
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #810000;
+    border-radius: 70px 80px 0 0;
+
+}
+
+
+.content3 .design {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: -75px;
+}
+
+.content3 .card.a .card-content .design {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: -65px;
+}
+
+.content3 .card-content .design i{
+    color: #810000;
+    font-size: 20px;
+    opacity: .5;
+    transition: .2s;
+}
+
+.content3 .card-content .design i:hover{
+    transform: rotate(90deg);
+    opacity: 1;
+}
+
+
+
+
+.ftitle .s span {
+    background: #fffefe;
+    border-radius: 20px;
+    color: #810000;
+}
+
+
+
+
+
+.content4 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-top: 30px;
+
+}
+
+.content4 h3{
+    position:relative ;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 70px;
+    
+}
+
+.content4 h3::before{
+    position: absolute;
+    top: 9px;
+    content: '';
+    left: -70px;
+    width: 80px;
+    height: 3px;
+    border-radius: 25px;
+    background: aliceblue;
+
+
+}
+
+.content4 h3::after{
+    position: absolute;
+    top: 9px;
+    content: '';
+    right: 4px;
+    width: 580px;
+    height: 3px;
+    border-radius: 25px;
+    background: aliceblue;
+
+
+}
+.content4 .cont{
+    position: relative;
+    justify-content: center;
+
+
+}
+.content4 h4{
+    color: #810000;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-left: 80px;
+    
+}
+
+.content4 p{
+    margin-left: 140px;
+    color: #2d2d2d;
+}
+
+.content4 .cont{
+    background: white ;
+    border-radius: 70px 80px 0 0;
+    width: 100%;
+    margin-top: 40px;
+    height: 350px;
+}
+
+.content4 .cont i{
+    position: relative;
+    color: #810000;
+    display: flex;
+    justify-content: center;
+    top: 45px;
+    left: -480px;
+
+}
+
+.content4 .cont.a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 70px 80px 0 0;
+    width: 0;
+    margin-top: 0;
+    top: -290px;
+    right: -45%;
+    width: 50%;
+    height: 170px;
+    padding: 10px;
+
+}
+
+.content4 .cont.a .conte{
+    position: relative;
+    top:-40px;
+    left: -100px;
+}
+
+.content4 .cont.a .conte p{
+    position: relative;
+    left: -20px;
+}
+
+.content4 .cont.a .conte i{
+    position: absolute;
+    left: 85px;
+    top: 30px;
+}
+
+.content4 .cont.a .conte .p i{
+    position: absolute;
+    top: 122px;
+}
+
+
+footer{
+    position: relative;
+    top: -150px;
+}
+
+/* footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #222;
+    height: 260px;
+    width: 100%;
+    border: 1px solid transparent;
+
+} */
+
+.foot{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px ;
+}
+
+.foot .container{
+    position: relative;
+    display:flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px ;
+
+}
+
+
+.foot .content{
+    position: relative;
+    display: flex;
+    flex-direction:column ;
+    flex-wrap: wrap;
+    padding: 40px ;
+    color: aliceblue;
+}
+.foot .content h3{
+    margin-bottom: 50px;
+    color: #fffefe;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+
+
+.foot .content a{
+    padding: 10px;
+    color: #fffefe;
+    transition: 0.2s;
+    font-weight: 300;
+}
+.foot .content a:hover{
+    color:  0 0 3px #ffffff, 0 0 5px  #ffffff ;
+    transform: translateX(10px);
+}
+
+.foot .browser-link i{
+    font-size: 40px;
+    transition: 0.3s;
+    color: #fffefe;
+}
+.foot .browser-link i:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.foot .line{
+    position: relative;
+    left: 10px;
+    top: -45px;
+    content: "";
+    height: 3px;
+    width: 153px;
+    background: aliceblue;
+    box-shadow: 0 0 3px #ffffff, 0 0 1px  #ffffff;
+    border-radius: 50%;
+   
+}
+
+
+.foot .line.a{
+    width: 80px;
+}
+
+.foot .line.b{
+    width: 120px;
+}
+
+.foot .line.c{
+    left: -25px;
+    width: 100%;
+    top: 20px;
+    height: 1px;
+    border-radius: 60%;
+}
+
+/* footer .end {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .end h6{
+    position: relative;
+    top: 50px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 15px;
+
+
+} */
+
+footer .end p{
+    position: relative;
+    justify-content: center;
+    top: 70px;
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: none;
+    font-size: 10px;
+    color: #fffefe;
+    letter-spacing: 3px;
+}
+
+.content4 h3 span{
+    background: white;
+    color: #810000;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.content4 .cont .s h4{
+    position: relative;
+    margin-left: 140px;    
+}
+
+.content4 .cont .s p{
+    position: relative;
+}
